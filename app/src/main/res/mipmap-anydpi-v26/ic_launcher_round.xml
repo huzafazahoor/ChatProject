@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/kisspng_logo_information_technology_vector_graphics_royalt_5ccb565d017791_266339731556829789006" />
+    <foreground android:drawable="?attr/actionModeSelectAllDrawable" />
+</adaptive-icon>

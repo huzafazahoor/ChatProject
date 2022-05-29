@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039769226255",
+    "project_id": "techbuddy-2e961",
+    "storage_bucket": "techbuddy-2e961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039769226255:android:7b66c3d19fd73198ae277a",
+        "android_client_info": {
+          "package_name": "com.example.chatproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039769226255-dl3k4ilh2ddcj26toiejq0ii97qlbv9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc24uK5dWBLG1F1RlCQkTxo2G8TI6M-6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039769226255-dl3k4ilh2ddcj26toiejq0ii97qlbv9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

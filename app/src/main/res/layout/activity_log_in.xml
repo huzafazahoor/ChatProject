@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454545"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="132dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="139dp"
+        android:src="@drawable/kisspng_logo_information_technology_vector_graphics_royalt_5ccb565d017791_266339731556829789006" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="#00BFA5"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Email"
+        android:paddingLeft="13dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="#00BFA5"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="13dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginBottom="138dp"
+        android:textAlignment="center"
+        android:textColor="#D3D3D3" />
+
+
+</RelativeLayout>
